@@ -18,6 +18,7 @@
 		2B47EBAE14F0AE7A00371407 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B47EB9514F0AE7A00371407 /* Foundation.framework */; };
 		2B47EBB614F0AE7A00371407 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2B47EBB414F0AE7A00371407 /* InfoPlist.strings */; };
 		2B47EBB914F0AE7A00371407 /* CountTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B47EBB814F0AE7A00371407 /* CountTestTests.m */; };
+		2B47EBC414F0B5F000371407 /* Counter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B47EBC314F0B5F000371407 /* Counter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,18 +36,20 @@
 		2B47EB9314F0AE7A00371407 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2B47EB9514F0AE7A00371407 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2B47EB9714F0AE7A00371407 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		2B47EB9B14F0AE7A00371407 /* CountTest-Info.plist */ = {isa = PBXFileReference; path = "CountTest-Info.plist"; sourceTree = "<group>"; };
+		2B47EB9B14F0AE7A00371407 /* CountTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CountTest-Info.plist"; sourceTree = "<group>"; };
 		2B47EB9D14F0AE7A00371407 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2B47EB9F14F0AE7A00371407 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2B47EBA114F0AE7A00371407 /* CountTest-Prefix.pch */ = {isa = PBXFileReference; path = "CountTest-Prefix.pch"; sourceTree = "<group>"; };
-		2B47EBA214F0AE7A00371407 /* CTAppDelegate.h */ = {isa = PBXFileReference; path = CTAppDelegate.h; sourceTree = "<group>"; };
+		2B47EBA114F0AE7A00371407 /* CountTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CountTest-Prefix.pch"; sourceTree = "<group>"; };
+		2B47EBA214F0AE7A00371407 /* CTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTAppDelegate.h; sourceTree = "<group>"; };
 		2B47EBA314F0AE7A00371407 /* CTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTAppDelegate.m; sourceTree = "<group>"; };
 		2B47EBAA14F0AE7A00371407 /* CountTestTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CountTestTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B47EBAB14F0AE7A00371407 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		2B47EBB314F0AE7A00371407 /* CountTestTests-Info.plist */ = {isa = PBXFileReference; path = "CountTestTests-Info.plist"; sourceTree = "<group>"; };
+		2B47EBB314F0AE7A00371407 /* CountTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CountTestTests-Info.plist"; sourceTree = "<group>"; };
 		2B47EBB514F0AE7A00371407 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		2B47EBB714F0AE7A00371407 /* CountTestTests.h */ = {isa = PBXFileReference; path = CountTestTests.h; sourceTree = "<group>"; };
+		2B47EBB714F0AE7A00371407 /* CountTestTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CountTestTests.h; sourceTree = "<group>"; };
 		2B47EBB814F0AE7A00371407 /* CountTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CountTestTests.m; sourceTree = "<group>"; };
+		2B47EBC214F0B5F000371407 /* Counter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Counter.h; sourceTree = "<group>"; };
+		2B47EBC314F0B5F000371407 /* Counter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Counter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +109,8 @@
 		2B47EB9914F0AE7A00371407 /* CountTest */ = {
 			isa = PBXGroup;
 			children = (
+				2B47EBC214F0B5F000371407 /* Counter.h */,
+				2B47EBC314F0B5F000371407 /* Counter.m */,
 				2B47EBA214F0AE7A00371407 /* CTAppDelegate.h */,
 				2B47EBA314F0AE7A00371407 /* CTAppDelegate.m */,
 				2B47EB9A14F0AE7A00371407 /* Supporting Files */,
@@ -250,6 +255,7 @@
 			files = (
 				2B47EBA014F0AE7A00371407 /* main.m in Sources */,
 				2B47EBA414F0AE7A00371407 /* CTAppDelegate.m in Sources */,
+				2B47EBC414F0B5F000371407 /* Counter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

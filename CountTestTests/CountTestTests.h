@@ -7,7 +7,17 @@
 //
 
 #import <SenTestingKit/SenTestingKit.h>
+#import "Counter.h"
 
-@interface CountTestTests : SenTestCase
+@interface CountTestTests : SenTestCase {
+    @private
+    Counter *_counter;
+}
+
+- (void)testInit;
+- (void)testIncrement;
+- (void)testIncrementResetsToZeroAfterTen;
+- (void)testDecrement;
+- (void)testReset;
 
 @end
